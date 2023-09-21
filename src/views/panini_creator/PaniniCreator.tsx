@@ -1,6 +1,6 @@
-import React from 'react'
+    import React from 'react'
 
-const PaniniCreator = () => {
-    return <div>Create Panini</div>
-}
-export default PaniniCreator;
+    const PaniniCreator = () => {
+        return <div>Create Panini</div>
+    }
+    export default PaniniCreator;
