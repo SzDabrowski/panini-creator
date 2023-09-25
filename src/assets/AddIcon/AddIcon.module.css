@@ -1,0 +1,8 @@
+.addIcon:hover .addIconBackground {
+    fill: black;
+    stroke: black;
+}
+
+.addIcon:hover .path {
+    fill: white;
+}
