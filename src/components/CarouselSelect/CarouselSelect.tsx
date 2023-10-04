@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import style from "./CarouselSelect.module.css";
 import { ArrowLeftIcon, ArrowRightIcon } from "../../assets/ArrowIcons";
+import GrainICon from "../../assets/GrainIcon";
+import WheatIcon from "../../assets/WheatIcon";
 
 interface iCarouselSelectProps {
   items: string[];
@@ -16,7 +18,9 @@ export const CarouselSelect = ({
   selectedItem: controlledSelectedItem,
 }: iCarouselSelectProps) => {
   const [localSelectedItem, setLocalSelectedItem] = useState(items[0]);
-  const selectedItem = controlledSelectedItem ?? localSelectedItem;
+  const [selectedItem, setSelectedItem] = useState(
+    controlledSelectedItem ?? localSelectedItem
+  );
 
   const handleNext = () => {
     const currentIndex = items.indexOf(selectedItem);

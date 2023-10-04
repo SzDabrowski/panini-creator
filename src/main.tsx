@@ -4,7 +4,7 @@ import App from "./App";
 import { AppContainer } from "./components/app_container/AppContainer";
 import "./index.css";
 
-const rootElement = document.getElementById('root');
+const rootElement = document.getElementById("root");
 
 if (rootElement) {
   ReactDOM.createRoot(rootElement).render(

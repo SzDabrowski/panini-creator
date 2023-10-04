@@ -1,0 +1,19 @@
+.addIcon .addIconBackground {
+    transition: fill 0.2s ease
+}
+
+.addIcon path {
+    transition: fill 0.2s ease
+}
+
+
+.addIcon:hover .addIconBackground {
+    fill: black;
+    stroke: black;
+}
+
+.addIcon:hover path {
+    fill: white;
+    stroke-width: 1px;
+    z-index: 1;
+}

@@ -26,12 +26,7 @@ export const DeleteICon = ({ onClick, className }: iDeleteIconProps) => {
         stroke="currentColor"
         strokeWidth="0.5"
       />
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M8.25 12.5L8.25 4.5L8.75 4.5L8.75 12.5L8.25 12.5Z"
-        fill="currentColor"
-      />
+
       <path
         fillRule="evenodd"
         clipRule="evenodd"

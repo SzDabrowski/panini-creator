@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import style from "./WelcomeScreen.module.css";
 import { motion } from "framer-motion";
-  import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import {
   fadeLeft,
@@ -11,7 +11,7 @@ import {
 } from "./animations/welcomeScreenAnimations";
 
 const WelcomeScreen = () => {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
   const [startAnimation, setStartAnimation] = useState<Boolean>(false);
 
   const handleButtonClick = () => {
