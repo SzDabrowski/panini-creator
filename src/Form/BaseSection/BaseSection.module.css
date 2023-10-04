@@ -1,0 +1,46 @@
+.wrapper {
+  width: 470px;
+  border: 0.5px solid black;
+  padding: 0 80px 80px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-family: Instrument Serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 80px 0 40px;
+  border-bottom: 0.5px solid black;
+  margin: 0;
+}
+
+.formField {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Instrument serrif";
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 0.5px solid black;
+  padding: 20px 0;
+}
+
+.formField .titleWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.formField .ingredientWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 55px;
+  margin-bottom: 15px;
+}

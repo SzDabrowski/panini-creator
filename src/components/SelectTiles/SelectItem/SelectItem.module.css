@@ -1,0 +1,18 @@
+
+.btn_default {
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    background: #fbfbfb;
+    border: .5px solid transparent;
+    cursor: pointer;
+    font-family: Oxygen mono;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.btn_selected {
+    border: .5px solid #000;
+    background: var(--white, #fff);
+}

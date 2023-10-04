@@ -1,0 +1,11 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  gap: 64px;
+}
+
+.wrapper .title {
+  width: 50px;
+}

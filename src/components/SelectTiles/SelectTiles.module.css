@@ -1,0 +1,7 @@
+.wrapper {
+    max-width: 350px;
+    display: flex;
+    gap:15px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
