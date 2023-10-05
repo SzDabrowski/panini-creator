@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./PaniniCreator.module.css";
 import BaseSection from "../../Form/BaseSection/BaseSection";
+import ExtrasSection from "../../Form/ExtrasSection/ExtrasSection";
 
 import { DicesIcon } from "../../assets/DicesIcon";
 
@@ -20,6 +21,7 @@ const PaniniCreator = () => {
       </header>
 
       <BaseSection />
+      <ExtrasSection />
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import style from "./BaseSection.module.css";
+import style from "../Section.module.css";
 
 import { CarouselSelect } from "../../components/CarouselSelect/CarouselSelect";
 import { DropdownSelect } from "../../components/DropdownSelect/DropdownSelect";
@@ -73,7 +73,7 @@ export const BaseSection = ({}: iBaseSection) => {
 
   return (
     <div className={style.wrapper}>
-      <h2>CONFIGURE BASE</h2>
+      <h2 className={style.sectionTitle}>CONFIGURE BASE</h2>
 
       {formFields.map((formField, index) => (
         <SectionItem
